@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+body {
+    background: green;
+    text-align: center;
+}
+
+.caixeta {
+    background: white;
+    border-radius: 30px;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+}
+
+h1 {
+    background: yellow;
+}
+
+p {
+    font-size: 160px;
+    line-height: 160px;
+}
+
+#bitcount {
+    background: cyan;
+    font-family: "Bitcount Grid Single", system-ui;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0.5,
+      "ELSH" 0,
+      "ELXP" 0;
+}
+
+#fasterone {
+    background: magenta;
+    font-family: "Faster One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#kablammo {
+    background: pink;
+    font-family: "Kablammo", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 0;
+
+}
+
+#zendots {
+    background: yellowgreen;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@media (max-width:600px) {
+
+    body {
+        background: red;
+    }
+
+    h1 {
+        background: white;
+    }
+
+
+}
